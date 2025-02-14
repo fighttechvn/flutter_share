@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 2.0.1
+* Upgrade build flutter 3.29 with `compileSdk 34`
+
 ## 2.0.0
 * Fix iPad bug
 * Add the [fileType] (only for Android) 
