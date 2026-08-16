@@ -4,7 +4,7 @@ version = '1.0-SNAPSHOT'
 // Không còn buildscript{} khai classpath AGP 3.3.0 ở đây nữa. Plugin được
 // Flutter nạp vào chính build của app, nên AGP đã có sẵn trên classpath do
 // settings.gradle của app khai `com.android.library`. Giữ lại classpath cũ chỉ
-// tạo xung đột phiên bản, và repositories cũ còn gọi jcenter() — method này bị
+// tạo xung đột phiên bản, và repositories cũ còn gọi `jcenter` — method này bị
 // Gradle 9 gỡ hẳn nên chỉ cần đọc file là build vỡ.
 //
 // Repositories cũng bỏ luôn: allprojects{} trong build.gradle gốc của app đã
