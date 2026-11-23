@@ -1,21 +1,10 @@
 group 'com.example.fluttershare'
 version '1.0-SNAPSHOT'
 
-buildscript {
-    repositories {
-        google()
-        jcenter()
-    }
-
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.0'
-    }
-}
-
 rootProject.allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 }
 
